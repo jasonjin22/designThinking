@@ -52,3 +52,6 @@ app.get('/hw/4/requirementInsight',function(req,res){
 app.get('/hw/4/userPersona',function(req,res){
 	res.sendfile('./norm/userPersona.png')
 })
+app.get('/hw/5',function (req,res) {
+	res.sendfile('./norm/hw5.pdf')
+})
